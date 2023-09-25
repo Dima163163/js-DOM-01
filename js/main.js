@@ -1,6 +1,5 @@
 'use strict';
 
-const itemsList = document.querySelector('.items');
 const items = document.querySelectorAll('.item');
 console.log(items);
 const propsLists = document.querySelectorAll('.props__list');
