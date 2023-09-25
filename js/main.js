@@ -1,11 +1,17 @@
 'use strict';
 
+const itemsList = document.querySelector('.items');
+const items = document.querySelectorAll('.item');
+console.log(items);
 const propsLists = document.querySelectorAll('.props__list');
 const ads = document.querySelector('.ads');
 const propsItemsEs6 = document.querySelectorAll('.props__item_two');
 const propsItemsJs = document.querySelectorAll('.props__item_four');
 const propsItemsObj = document.getElementsByClassName('props__item_three');
 const propsItemsAsync = document.getElementsByClassName('props__item_five');
+
+
+items[4].before(items[0]);
 
 propsItemsJs[2].after(propsItemsJs[5]);
 
